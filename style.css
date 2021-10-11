@@ -1,4 +1,58 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
 
+.maindiv {
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    /*align:center;*/
+    margin: auto;
+}
 
+table {
+    width: inherit;
+    color: black;
+}
+td, tr #buttonLine{
+    text-align: center;
+}
+
+td:nth-child(1) {
+    text-align: left;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+footer span {
+    color:grey;
+    font-size: 0.9em;
+}
+
+.maindiv button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#principal {
+    width: 155px;
+}
+#rate {
+    width: 100px;
+}
+#rate_val {
+    vertical-align: bottom;
+    margin: auto;
+    margin-left: 5px;
+    width: 55px;
+    display: inline-block;
+    margin: auto;
+}
+#years {
+    width: 155px;
+    background-color: white;
+}
